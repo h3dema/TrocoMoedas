@@ -12,17 +12,21 @@ Assim se temos um total de 4 "peças", as combinações de moedas são:
 
 ## Código
 
-Este repositório contem o codigo em Java para resolução do problema do troco em moedas.
+Este repositório contem o codigo em Java para resolução do problema do troco em moedas. Este código pode ser encontrado no folder "Java" dentro deste repositório.
+
+
 
 ```
 javac CoinChange.java
 java CoinChange
 ```
 
-Você pode ver um [video com a explicação no Youtube](https://youtu.be/EGIMSyqftHc) e o texto com a explicação no [blog](http://h3dema.blogspot.com/2015/10/dp-problema-do-troco-em-moedas.html).
+Você pode ver meu [video com a explicação no Youtube](https://youtu.be/EGIMSyqftHc) e o texto com a explicação no [blog](http://h3dema.blogspot.com/2015/10/dp-problema-do-troco-em-moedas.html).
 No site da [USP](https://panda.ime.usp.br/pythonds/static/pythonds_pt/04-Recursao/11-programacaoDinamica.html), você pode ainda ver uma versão em python com uma explicação elaborada do método de resolução.
 
-## Variação
+
+# Variação do Problema do Troco
+
 
 Existe uma variação deste problema que consiste em obter o menor número de moedas correspondente ao total. Pode parecer que uma abordagem gulosa é a solução ótima, mas não é verdade para todos os casos.
 Se consideramos que temos moedas de 1, 7 e 10 e precisamos achar a quantia de 14.
@@ -31,3 +35,5 @@ Assim a solução ótima pode ser obtida por programação dinâmica também.
 Uma solução é utilizar o código acima e ver qual a solução com menor quantidade.
 Existe um jeito mais direto?
 Sim!
+
+> Veja o código no folder "Python" deste repositório.
