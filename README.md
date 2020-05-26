@@ -28,12 +28,6 @@ No site da [USP](https://panda.ime.usp.br/pythonds/static/pythonds_pt/04-Recursa
 # Variação do Problema do Troco
 
 
-Existe uma variação deste problema que consiste em obter o menor número de moedas correspondente ao total. Pode parecer que uma abordagem gulosa é a solução ótima, mas não é verdade para todos os casos.
-Se consideramos que temos moedas de 1, 7 e 10 e precisamos achar a quantia de 14.
-Uma abordagem gulosa que seleciona da maior moeda para a menor, fornece uma solução igual a 1 x 10 + 4 x 1, ou seja, 4 moedas. Contudo podemos ver claramente que uma solução 2 x 7 tem somente 2 moedas para a mesma quantidade.
-Assim a solução ótima pode ser obtida por programação dinâmica também.
-Uma solução é utilizar o código acima e ver qual a solução com menor quantidade.
-Existe um jeito mais direto?
-Sim!
+Existe uma variação deste problema que consiste em obter o menor número de moedas correspondente ao total.
 
 > Veja o código no folder "Python" deste repositório.
